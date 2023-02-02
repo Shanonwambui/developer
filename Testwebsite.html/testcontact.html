@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Shanon's website</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="heading">
+            <h1>PHOTO GALLERY</h1>
+            <ul id="nav">
+                <li><a href="testhome.html">Home</a></li>
+                <li><a href="testabout.html">About</a></li>
+                <li><a href="testblog.html">Blog</a></li>
+                <li><a href="testcontact.html">Contact</a></li>
+                <li><a href="testnews.html">News</a></li>
+
+            </ul>
+
+
+        </div>
+        <div id="contact">
+            <h2>Send us a message!</h2>
+            <form action="send.php" method="post">
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="first name"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="last name"><br>
+                <label for="email">Email:</label><br>
+                <input type="text" id="email" name="email"><br>
+                <label for="message">Message:</label><br>
+                <textarea placeholder="Enter your mesage..."></textarea><br>
+                <label for="rate">How would you rate our website?</label><br>
+                <input type="radio" id="rate" name="rate" value="I looovvee this page">I looovvee this page<br>
+                <input type="radio" id="rate" name="rate" value="I like this page">I like this page<br>
+                <input type="radio" id="rate" name="rate" value="It's average">It's average<br>
+                <input type="radio" id="rate" name="rate" value="I don't like this page">I don't like this page<br>
+                <label for="query">Would you like to receive newsletters from our website?</label><br>
+                <input type="radio" id="query" name="query" value="yes">yes<br>
+                <input type="radio" id="query" name="query" value="no">no<br><br>
+
+                <input type="submit">
+            </form>
+            
+            <h3>Thank you!</h3>
+            
+        </div>
+    </body>
+</html>
